@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Trabajaremos con css float, absolute, color, font, border,  */
+.left{
+    float: left;
+    width: 30%;
+    padding: 1em;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-top: 10px;
+     border: .5px whitesmoke solid; 
+    border-radius: 7px;
+    box-shadow: 5px 10px whitesmoke;
+}
+.img-responsive{
+    max-width: 200px;
+    border-radius: 5px;
+    
+}
+.titlepicture{
+    font-family: cursive;
+    font-size: larger;
+    color: steelblue;
+     display: table-cell; 
+}
+.aleft{
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.aright{
+    float:right;
+    width: 45%;
+   
+}
+.aright >p{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+    font-size: small;
+    text-align: justify;
+}
+.aright >h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.imagen{
+    
+   float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.desc{
+    width: 50%;
+    float: right;
+    padding-right: 4em;
+    border: black 2px solid;
+    text-align: center;
+    float:right;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+    
+    
+}
+.abajo{
+    float: right;
+    padding-bottom: 5em;
+    height: 60px;
+    width: 20%;
+    padding-left: 2em;
+   
+}
+.copy{
+    border: black 2px solid;
+    float: right;
+    padding-right: 5em;
+     
+
+}
